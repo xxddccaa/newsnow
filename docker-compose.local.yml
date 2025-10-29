@@ -2,7 +2,7 @@ services:
   newsnow:
     build: .
     ports:
-      - '4444:4444'
+      - '9044:4444'
     volumes:
       - newsnow_data:/usr/app/.data
     environment:

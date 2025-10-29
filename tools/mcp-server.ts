@@ -13,7 +13,7 @@ const server = new McpServer(
     name: "NewsNow",
     version: packageJSON.version,
   },
-  { capabilities: { logging: {} } },
+  { capabilities: {} },
 )
 
 server.tool(
